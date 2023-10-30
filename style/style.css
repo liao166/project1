@@ -139,6 +139,11 @@ main .second .card .image-container img {
 main .second .card .image-container img:hover {
   transform: scale(1.2);
 }
+main .second .b {
+  border: solid 2px #09777d;
+  border-radius: 10px;
+  margin: 0 10px;
+}
 main .second .card1 {
   display: flex;
   flex-direction: column;
@@ -166,19 +171,16 @@ main .second .card1 .a1 {
   background-color: white;
   color: #000;
 }
-main .second .b {
-  border: solid 1px #09777d;
-  border-radius: 10px;
-}
 main #wrapper {
   width: 500px;
-  height: 250px;
+  height: 300px;
+  background-color: #78ffff;
   border-radius: 5px;
   border: 2px dotted #09777d;
   position: absolute;
   top: 50%;
   left: 50%;
-  margin-top: -125px;
+  margin-top: -150px;
   margin-left: -250px;
 }
 main #wrapper #content {
@@ -187,46 +189,44 @@ main #wrapper #content {
 main #wrapper #content .form-group {
   margin-bottom: 15px;
 }
+main #wrapper #content .form-control {
+  padding: 5px 0;
+}
 main #wrapper #content .btn {
   display: block;
-  color: #ffffff;
+  color: #fff;
   background-color: #09777d;
   padding: 5px 10px;
+  font-size: 15px;
   text-decoration: none;
+  border: none;
   border-radius: 5px;
   margin-top: 15px;
   text-align: center;
 }
 main .c {
-  min-height: 100vh;
-  display: flex;
-  flex-direction: column;
-  align-items: center;
-}
-main .c h2 {
-  font-size: 2rem;
-  margin: 2rem 0;
-}
-main .c #content {
   width: 600px;
-  height: 250px;
+  height: 350px;
   position: absolute;
   top: 50%;
   left: 50%;
-  margin-top: -125px;
+  margin-top: -175px;
   margin-left: -300px;
-}
-main .c .t1 {
+  background-color: #78ffff;
   border: 2px dotted #09777d;
   border-radius: 5px;
+}
+main .c #content {
   padding: 30px;
 }
-main .c .btn {
+main .c #content .btn {
   color: #ffffff;
   background-color: #09777d;
   padding: 5px 10px;
   text-decoration: none;
+  border: none;
   border-radius: 5px;
+  font-size: 15px;
   margin-top: 15px;
   text-align: center;
 }
@@ -242,12 +242,13 @@ main .about h2 {
 main .about h3 {
   color: #78ffff;
   background-color: #0e9aa2;
-  border-radius: 10px;
+  border-left: 10px solid #78ffff;
+  border-radius: 0 10px 10px 0;
   padding: 10px;
-  box-shadow: 0 0 5px 5px #0b6392 inset;
 }
 main .about p {
-  margin-bottom: 10px;
+  margin-top: 10px;
+  margin-bottom: 30px;
 }
 main .about .left {
   float: left;
