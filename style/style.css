@@ -323,6 +323,10 @@ footer .links a img {
     width: 40vw;
     height: 40vw;
   }
+  main .second .cards .card .image-container {
+    width: 40vw;
+    height: 40vw;
+  }
   iframe {
     width: 500px;
     height: 500px;
